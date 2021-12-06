@@ -1,1 +1,0 @@
-54586 281474977837021 1638484202032634200 31ee54f6aea4d07cc45db68137c9ee4d D:\Program Files\zig\zig-windows-x86_64-0.8.1\lib\libc\mingw\lib-common\ntdll.def.in
