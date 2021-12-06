@@ -12,6 +12,7 @@ pub fn build(b: *std.build.Builder) void {
     const mode = b.standardReleaseOptions();
 
     const exe = b.addExecutable("AdventOfCode2021", "src/Day-1/sonar-sweep.zig");
+    exe.addPackagePath("aoc_util", "src/helpers.zig");
     exe.setTarget(target);
     exe.setBuildMode(mode);
     exe.install();
