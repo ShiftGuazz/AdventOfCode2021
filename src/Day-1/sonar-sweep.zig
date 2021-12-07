@@ -14,7 +14,7 @@ pub fn main() !void {
 
 pub fn part1() !u32 {
     var increases: u32 = 0;
-    var lines = std.mem.tokenize(input, "\n");
+    var lines = std.mem.tokenize(u8, input, "\n");
 
     var num: i32 = try fmt.parseInt(i32, lines.next().?, 10);
 
@@ -30,7 +30,7 @@ pub fn part1() !u32 {
 
 pub fn part2() !u32 {
     var increases: u32 = 0;
-    var lines = std.mem.tokenize(input, "\n");
+    var lines = std.mem.tokenize(u8, input, "\n");
 
     var curWin = [3]i32{
         try fmt.parseInt(i32, lines.next().?, 10),
