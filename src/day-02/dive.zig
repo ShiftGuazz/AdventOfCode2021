@@ -6,5 +6,6 @@ const fmt = std.fmt;
 const input = @embedFile("../../input/day_02.txt");
 
 pub fn main() !void {
+    print("Input directory is: {s}", .{try util.getInputDir()});
     print("---Part 1 result---\n", .{});
 }
