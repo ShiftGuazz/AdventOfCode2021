@@ -5,10 +5,6 @@ const LibExeObjStep = std.build.LibExeObjStep;
 const should_link_libc = false;
 const nameFile = @embedFile("ExeNames");
 
-// const ExeNames = [_][]const u8{
-//     "sonar-
-// }
-
 const test_files = [_][]const u8{
     //list files with tests here
 };
